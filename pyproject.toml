@@ -14,10 +14,10 @@ dependencies = [
     "lightgbm==4.*",
     "matplotlib",
     "numpy",
-    "pandas",
+    "pandas>=2.3.3",
     "scikit-learn>=1.7.2",
     "scikit-surprise>=1.1.4",
-    "torch>=2.8.0"
+    "torch>=2.8.0",
 ]
 
 [tool.uv]
